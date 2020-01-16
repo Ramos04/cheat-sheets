@@ -8,7 +8,7 @@
 
 1. [Installation](#installation)
 1. [Upgrading](#upgrading)
-1. [Backup](#backup-config)
+1. [Backup Configuration](#backup-config)
    1. [Command](#command)
    1. [Script](#Script)
 1. [Quick Start](#quick-start)
