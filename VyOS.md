@@ -7,7 +7,6 @@
 ## Table Of Contents
 
 1. [Installation](#installation)
-   1. []()
 1. [Upgrading](#upgrading)
 1. [Backup](#backup-config)
    1. [Command](#command)
