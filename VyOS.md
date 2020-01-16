@@ -4,6 +4,24 @@
 | :--------------------------- |
 | Thu Jan 16 13:41:01 CST 2020 |
 
+## Table Of Contents
+
+1. [Installation](#installation)
+   1. []()
+1. [Upgrading](#upgrading)
+1. [Backup](#backup-config)
+   1. [Command](#command)
+   1. [Script](#Script)
+1. [Quick Start](#quick-start)
+1. [Configuration Workflow](#configuration-workflow)
+1. [System Information](#system-information)
+1. [NAT](#nat)
+   1. [Destination NAT](#destination-nat)
+   1. [Source NAT](#source-nat)
+1. [Script Template](#script-template)
+1. [Resources](#resources)
+1. [Acknowledgements](#acknowledgements)
+
 ## Installation 
 After booting the device with the iso file run 
 
@@ -254,7 +272,7 @@ vyos@vyos # exit
 vyos@vyos $
 ```
 
-## System information
+## System Information
 
 The show command is used to show system information, tab complete is your friend, after each part of a command you can hit \<tab\> to list all of your options
 
@@ -333,7 +351,7 @@ set nat source rule 100 source address '192.168.0.0/24'
 set nat source rule 100 translation address 'masquerade'
 ```
 
-## Script template
+## Script Template
 
 Use the following as a template for a configuration script:
 
@@ -359,5 +377,5 @@ save
 * [Unofficial Vyatta Wiki](http://wiki.het.net/)
 * [Higebu's Git repos](https://github.com/higebu?tab=repositories)
 
-## Acknowledgement
+## Acknowledgements
 * [bertvv's VyOS cheatsheet](https://github.com/bertvv/cheat-sheets/blob/master/docs/VyOS.md)
